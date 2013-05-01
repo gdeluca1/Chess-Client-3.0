@@ -1,0 +1,34 @@
+Chess patch notes:
+-Add patch notes to the file menu.
+Version 2.1:
+1) ChessPieceBox getPieceFromSquare method now iterates using a for each loop since blackRook2 was unable to be found.
+2) Focus was given to the menu even on the user panel side.
+3) Cleaned up unused code.
+4) You will now be alerted when you are in check 
+Version 3.0:
+TODO: and will be unable to move unless you move out of check.
+- En Passant
+
+Chess TODO:
+AI - add value to castling.
+Add negative points to moving king. 
+Or maybe even queen, if too early.
+Allow saving of games.
+
+Check to see if the king is in check...or in check mate.
+
+
+
+Add notation for moves
+Resign button
+En passant
+
+- Allow the players to choose who's which color.
+- Add an undo button (maybe prompt the opponent).
+-Add check button
+Look and feel
+
+King check
+- Need to first check if it's in check before
+To begin with, I might just write a method to check to see if it's in check at all.
+--ChessPieceBox, ChessMove, MoveListener (160)
